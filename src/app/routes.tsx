@@ -28,4 +28,6 @@ export const router = createBrowserRouter([
       { path: 'label-results', Component: LabelScanResultsScreen },
     ],
   },
-]);
+], {
+  basename: import.meta.env.BASE_URL
+});
